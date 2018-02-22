@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "945700799619",
+    "firebase_url": "https://yourcf-bf895.firebaseio.com",
+    "project_id": "yourcf-bf895",
+    "storage_bucket": "yourcf-bf895.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945700799619:android:cc4c23157997d0fc",
+        "android_client_info": {
+          "package_name": "com.example.lorca.yourcf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945700799619-cs8lfquqiqu0co0lluspe77n9v01q9e2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lorca.yourcf",
+            "certificate_hash": "5f83143d5696a4100047b0a2a404e9a698e371e9"
+          }
+        },
+        {
+          "client_id": "945700799619-i893f7f637starf678l31clrhhn3ob31.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKLGL2KNDpzBQIxsf5njVKQLj1Qqg0lWI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945700799619-i893f7f637starf678l31clrhhn3ob31.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
