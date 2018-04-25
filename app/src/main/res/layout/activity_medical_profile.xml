@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/medicalbg"
+    tools:context="com.example.lorcan.yourcf.Medical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_height="wrap_content">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtDoctor"
+            android:hint="Enter Doctor Name"
+            android:textColorHint="@android:color/white"
+            android:layout_width="match_parent"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:inputType="text"
+            android:layout_height="wrap_content"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="10"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtDOB"
+            android:hint="Enter Date Of Birth"
+            android:textColorHint="@android:color/white"
+            android:layout_width="match_parent"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:inputType="date"
+            android:layout_height="wrap_content"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="50"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtSiblingsWithcF"
+            android:hint="Enter Siblings With CF"
+            android:textColorHint="@android:color/white"
+            android:layout_width="match_parent"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:inputType="text"
+            android:layout_height="wrap_content"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="50"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtdiabetes"
+            android:hint="Enter Yes/No For Diabetes "
+            android:textColorHint="@android:color/white"
+            android:layout_width="match_parent"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:inputType="text"
+            android:layout_height="wrap_content"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="50"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtAgeofPrognosis"
+            android:hint="Age Of Prognosis"
+            android:textColorHint="@android:color/white"
+            android:layout_width="match_parent"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="10"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"/>
+
+        <Button
+            android:id="@+id/btnProfile"
+            style="@android:style/Widget.Material.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Sign Up"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

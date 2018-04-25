@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#5e080213</color>
-    <color name="colorPrimaryDark">#b36f47e5</color>
-    <color name="colorAccent">#a3702187</color>
+    <color name="colorPrimary">#be84f8</color>
+    <color name="colorPrimaryDark">#8f59fc</color>
+    <color name="colorAccent">#a24cea</color>
+    <color name="info1">#b76afc</color>
+    <color name="overLayBackground">#7ab6f5</color>
+    <color name="overLayActionBar">#b99be1</color>
+    <color name="medicalbg">#779774</color>
+    <color name="protien">#3e49e1</color>
+    <color name="iron">#ca2438</color>
+    <color name="salt">#db9f12</color>
+    <color name="zinc">#31791d</color>
+    <color name="calcium">#5a0f5e</color>
+
+
+
 </resources>

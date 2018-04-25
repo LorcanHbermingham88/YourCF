@@ -4,82 +4,77 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg5"
-    tools:context="com.example.lorca.yourcf.MainActivity">
-    
+    android:background="@drawable/main"
+    tools:context="com.example.lorcan.yourcf.MainActivity">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="72dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/rbicon" />
+
+    <TextView
+        android:id="@+id/txtSlogan"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="100dp"
+        android:textSize="18sp"
+        android:text="@string/slogan"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-condensed"
+         />
+
+
+
+</LinearLayout>
+
+
+
+
     <LinearLayout
         android:orientation="vertical"
-        android:layout_centerInParent="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="80dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:src="@drawable/cf" />
-
-        <TextView
-            android:id="@+id/txtSlogan"
-            android:gravity="center"
-            android:text="@string/slogan"
-            android:textColor="@android:color/white"
-            android:layout_width="200dp"
-            android:layout_height="50dp" />
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-    </LinearLayout>
-
-    <LinearLayout
-        android:orientation="horizontal"
+        android:layout_width="match_parent"
         android:weightSum="2"
         android:layout_alignParentBottom="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout">
+        android:layout_height="wrap_content">
 
 
+
+        <Button
+            android:id="@+id/btnSignIn"
+            style="@android:style/Widget.Material.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-condensed"
+            android:background="@color/colorAccent"
+            android:text="Sign In" />
+
+        <Button
+            android:id="@+id/btnSignUp"
+            style="@android:style/Widget.Material.Button.Borderless.Colored"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"
+            android:text="Sign Up" />
 
     </LinearLayout>
-
-
-    <Button
-        android:id="@+id/btnSignUp"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
-        android:text="Register"
-        android:textColor="@android:color/white" />
-
-    <Button
-        android:id="@+id/button3"
-        style="@android:style/Widget.Material.Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/btnSignUp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="19dp"
-        android:background="@color/colorPrimary"
-        android:text="Login"
-        android:textColor="@android:color/white" />
-
 
 </RelativeLayout>

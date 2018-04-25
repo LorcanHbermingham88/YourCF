@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">YourCF</string>
-    <string name="slogan">Welcome to Your CF</string>
+    <string name="slogan">Welcome To Your CF</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_how_to_sport">HowToSport</string>
 </resources>
